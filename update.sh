@@ -36,8 +36,6 @@ cleaning(){
     check_exist_status
     sudo apt-get autoclean -y;
     check_exist_status
-    sudo updatedb;
-    check_exist_status
 
 }
 
